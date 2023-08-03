@@ -25,7 +25,7 @@ const Roles = () => {
         {roles.length > 0 &&
           roles.map((role) => {
             return (
-              <li key={role.id} className="role-item">
+              <li key={role.id} className="item">
                 <span>
                   {role.title} - {role.id}
                 </span>
