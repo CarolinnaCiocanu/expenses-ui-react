@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+
+  .aside {
+    border-right: 1px solid $whiteSmoke;
+    min-height: 100%;
+    width: 20%;
+  }
+
+  .content {
+    min-height: 100%;
+    width: 80%;
+  }
+}

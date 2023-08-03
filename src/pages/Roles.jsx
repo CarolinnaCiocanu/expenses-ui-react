@@ -79,15 +79,7 @@ const Roles = () => {
   };
 
   return (
-    <div
-      className="red"
-      style={{
-        maxWidth: "50vw",
-        display: "block",
-        margin: "0 auto",
-        paddingTop: "100px",
-      }}
-    >
+    <div className="container roles">
       <button onClick={getRs}>getRoles</button>
       <ul style={{ listStyle: "none", paddingLeft: "0", marginLeft: "0" }}>
         {userRoles.length > 0 &&
