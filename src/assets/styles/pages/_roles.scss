@@ -1,0 +1,54 @@
+.roles {
+  ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+
+    li.role-item {
+      align-items: center;
+      border: 1px solid $whiteSmoke;
+      display: flex;
+      font-size: 14px;
+      font-weight: 600;
+      justify-content: space-between;
+      margin-bottom: 15px;
+      max-width: 100%;
+      padding: 15px;
+      text-transform: capitalize;
+
+      .delete {
+        color: $white;
+        background: $red;
+        border: 1px solid $red;
+      }
+    }
+  }
+  .add {
+    background: $blue;
+    border: 1px solid $blue;
+    color: $white;
+    display: block;
+    margin-left: auto;
+    margin-top: 20px;
+    text-decoration: none;
+    width: fit-content;
+  }
+  &-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    width: 100%;
+
+    .form-control {
+      height: 40px;
+      margin-bottom: 20px;
+      padding-left: 10px;
+    }
+
+    .submit {
+      cursor: pointer;
+      display: block;
+      margin-left: auto;
+    }
+  }
+}

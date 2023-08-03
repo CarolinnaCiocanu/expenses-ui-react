@@ -1,7 +1,8 @@
 export const Home = () => {
   return (
-    <div>
-      <h1>Home Page</h1>
+    <div className="container">
+      <h1 className="title">Home</h1>
+      <p>Welcome to my expenses app.</p>
     </div>
   );
 };
