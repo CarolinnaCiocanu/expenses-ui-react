@@ -1,4 +1,4 @@
-.roles {
+.container {
   ul {
     list-style: none;
     margin-left: 0;
@@ -33,7 +33,7 @@
     text-decoration: none;
     width: fit-content;
   }
-  &-form {
+  form {
     display: flex;
     flex-direction: column;
     margin-top: 70px;
